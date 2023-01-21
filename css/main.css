@@ -36,6 +36,9 @@ header {
     border-radius: 40px;
     font-size: 50px;
 }
+article {
+    margin-top: 50px;
+}
 
 p:hover { 
     font-size: larger;
@@ -66,3 +69,12 @@ img {
 }
 
 .icons div img { width:100%;}
+
+footer {
+    background-color:#483b2a;
+    color: aliceblue;
+    padding: 80px;
+    margin-top: 80px;
+    font-family: american typewriter;
+    font-size: 30px;
+}

@@ -16,12 +16,40 @@ body {
 
 .hidden { display: none;}
 
-.icons { text-align: center;}
+header {
+    background-color: rgb(188, 255, 255);
+    font-size: 60px;
+    font-family: american typewriter;
+   color: #444444;
+   padding:80px;
+}
 
+.icons { 
+    text-align: center;
+    font-size: 50px;
+    font-family: american typewriter;
+    color: #444444;
+    padding-top: 50px;
+}
+
+.names {
+    margin-left: 70px;
+    background-color:rgb(188, 255, 255) ;
+    border-radius: 40px;
+}
+
+
+img {
+    padding: 200px;
+    border-radius: 50px;
+    margin: 50px;
+    margin-bottom: -100px;
+    
+}
 .icons h2 { font-size: 2em; margin: 10px;}
 
 .icons div {
-    width: 45%;
+    width: 35%;
     display: inline-block;
 }
 

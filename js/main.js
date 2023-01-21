@@ -11,13 +11,38 @@ document refers to the index.html page; querySelector is How JS uses CSS to sele
 */
 
 // step 1 - select the elements you want the user to interact with
-let bitmapgraphic = document.querySelector("#bitmapgraphic")
+const p = document.querySelector("#icon")
+const p2 = document.querySelector("#icon2")
+const p3 = document.querySelector("#icon3")
+const p4 = document.querySelector("#icon4")
+const p5 = document.querySelector("#icon5")
+const p6 = document.querySelector("#icon6")
+const p7 = document.querySelector("#icon7")
+const p8 = document.querySelector("#icon8")
+const p9= document.querySelector("#icon9")
+const p10= document.querySelector("#icon10")
+const p11= document.querySelector("#icon11")
+const p12= document.querySelector("#icon12")
 
 // step #3 - what happens when events are triggered?
 function logID() {
-    console.log(this.id)
+    console.log('clicked on this element:', this.id);
 }
 
 // step #2 - how do you want the user to interact with the element?
 
-bitmapgraphic.addEventListener('click', logID);
+p.addEventListener('click', logID);
+p2.addEventListener('click', logID);
+p3.addEventListener('click', logID);
+p4.addEventListener('click', logID);
+p5.addEventListener('click', logID);
+p6.addEventListener('click', logID);
+p7.addEventListener('click', logID);
+p8.addEventListener('click', logID);
+p9.addEventListener('click', logID);
+p10.addEventListener('click', logID);
+p11.addEventListener('click', logID);
+p12.addEventListener('click', logID);
+
+
+

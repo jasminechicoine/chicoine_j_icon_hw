@@ -1,4 +1,4 @@
-# My Suoer Awesome Icon Project
+# My Super Awesome Icon Project
 
 TODO: Write a project description
 

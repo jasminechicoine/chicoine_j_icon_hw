@@ -1,6 +1,6 @@
 # My Super Awesome Icon Project
 
-TODO: Write a project description
+TODO: Icon set used for a website to depict sounds of nature to calm the mind
 
 ## Contributing
 

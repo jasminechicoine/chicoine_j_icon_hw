@@ -6,11 +6,9 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 16p;
-    background-color: white;
 
-    color:black;
+body {
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +24,7 @@ header {
 
 .icons { 
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: american typewriter;
     color: #444444;
     padding-top: 50px;
@@ -36,8 +34,20 @@ header {
     margin-left: 70px;
     background-color:rgb(188, 255, 255) ;
     border-radius: 40px;
+    font-size: 50px;
 }
 
+p:hover { 
+    font-size: larger;
+    background-color: #483b2a;
+    color: aliceblue;
+    cursor: pointer;
+    
+ }
+
+ p { transition: all 0.5s ease; transform-origin: 50%;}
+
+p:hover #smalltext { fill: white; transform: rotate(130deg); }
 
 img {
     padding: 200px;
@@ -46,10 +56,12 @@ img {
     margin-bottom: -100px;
     
 }
-.icons h2 { font-size: 2em; margin: 10px;}
+.icons h2 { 
+    font-size: 80px;
+}
 
 .icons div {
-    width: 35%;
+    width:25 ;
     display: inline-block;
 }
 
